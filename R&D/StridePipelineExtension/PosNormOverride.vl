@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="IZNEdmWwsqTPmRYNCw6rdu" LanguageVersion="2021.4.0.64" Version="0.128">
+<Document xmlns:p="property" Id="Fahg5A2me3GM9VkBnjFW4T" LanguageVersion="2021.4.0.64" Version="0.128">
   <NugetDependency Id="UMjQW1rcsHzLbQEEvmlyux" Location="VL.CoreLib" Version="2021.4.0-0064-g1b06d2b922" />
   <Patch Id="E3ImUTd2YNGObBvmdtwudp">
     <Canvas Id="UxUkpQTPbkoLBVXkPUqMgv" DefaultCategory="Main" CanvasType="FullCategory">
@@ -3672,7 +3672,7 @@
             <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="PosNormOverride.vl">
               <Choice Kind="ProcessNode" Name="MySceneWindow" />
             </p:NodeReference>
-            <Pin Id="KB5Y8vreWQpLa79zg7iUUW" Name="Bounds" Kind="InputPin" DefaultValue="2352, 143, 649, 628">
+            <Pin Id="KB5Y8vreWQpLa79zg7iUUW" Name="Bounds" Kind="InputPin" DefaultValue="2093, 128, 649, 628">
               <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -4230,7 +4230,7 @@
             <Pin Id="VaypxupgfqUNHvSouKUJYL" Name="Input" Kind="InputPin" />
             <Pin Id="SkMeN6SUjRfLEqTDQwe89q" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="GF6xbpZvNgcOU50aMMVOTA" Comment="Input" Bounds="816,-420,35,15" ShowValueBox="true" isIOBox="true" Value="0.76">
+          <Pad Id="GF6xbpZvNgcOU50aMMVOTA" Comment="Input" Bounds="816,-420,35,15" ShowValueBox="true" isIOBox="true" Value="0.3">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -4346,7 +4346,7 @@
             <Pin Id="JodiipaVoqhOGUF3KXIoCZ" Name="Input" Kind="InputPin" />
             <Pin Id="O3j2OgDcNNdMVtJc2JOXwA" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="Pp6drE0lDBkOwe9OoBohao" Comment="Input" Bounds="775,-581,35,43" ShowValueBox="true" isIOBox="true" Value="0.37, 1.25, 0.46">
+          <Pad Id="Pp6drE0lDBkOwe9OoBohao" Comment="Input" Bounds="775,-581,35,43" ShowValueBox="true" isIOBox="true" Value="0.37, 0.82, 0.46">
             <p:TypeAnnotation LastCategoryFullName="3D" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
@@ -4403,7 +4403,7 @@
             <Pin Id="SrjLsumuhdTNRCgL4PKYFM" Name="Pos" Kind="OutputPin" />
             <Pin Id="DHMowELw9CnLYGHyLEnVJP" Name="ID" Kind="OutputPin" />
           </Node>
-          <Node Bounds="1280,229,96,19" Id="TBKUNhUChSaOnpYszcwKAm">
+          <Node Bounds="710,113,96,19" Id="TBKUNhUChSaOnpYszcwKAm">
             <p:NodeReference LastCategoryFullName="Stride.Rendering.ShaderFX" LastSymbolSource="VL.Stride.Rendering.EffectShaderNodes">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="PosNormExample" />
@@ -4413,7 +4413,7 @@
             <Pin Id="QOF4K3O7VuhMfvSgRKoOMf" Name="Iterations" Kind="InputPin" />
             <Pin Id="RmYr2JdE7T4OqfwYObPp6s" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="L64viXoxMMeNOeCNfaTifx" Comment="Metalness" Bounds="1282,135,35,15" ShowValueBox="true" isIOBox="true" Value="0.31">
+          <Pad Id="L64viXoxMMeNOeCNfaTifx" Comment="Metalness" Bounds="1282,135,35,15" ShowValueBox="true" isIOBox="true" Value="0.44">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -4508,7 +4508,6 @@
         <Link Id="A3E6Cx0jYmmPuln19yygje" Ids="Pp6drE0lDBkOwe9OoBohao,JodiipaVoqhOGUF3KXIoCZ" />
         <Link Id="R7XAXBtFKooMltAbp4uRKv" Ids="O3j2OgDcNNdMVtJc2JOXwA,SYOOXwd78v9N5hE4sVoOHz" />
         <Link Id="DXuwFCL3RhPOVAKGbHpGGf" Ids="BdZxMOWR4DYP57J7Cx4sNn,G6RTlIvQVkLLEwhIkam2Yg,VpPpNXhdnv7MGNljc4J2if" />
-        <Link Id="IDrWsPUw4fFMGgUDwiqmBp" Ids="Vkl5jqhocIQMgNn51FyNuE,UrST2zoOYA4Mn8bZPmEZcI" />
         <Link Id="DuhPhTx8Y3AL7LrtJp7LUN" Ids="SSAca0yQnEWMHPL98aSHAa,B4IMDXWK9SENRqk7qxsujo" />
         <Link Id="DMmHuZy9XkXN1ATFhAq0rm" Ids="PhT7I7cNxhLONS1Lu0QhC9,S72IsV1Kyx9MXPHJOnSggY" />
         <Link Id="OnrSk5gG4kGPUn93pe4r9e" Ids="HwoU4CsM8qOPFLQXltPFAS,TDvzuKWwyHpNPVmfYrqEZ9" />
@@ -4516,8 +4515,7 @@
         <Link Id="DpO2bsmp2Q2N7ALfeQ3Plh" Ids="AElD5x0F3HGQWBDUb3HJvT,LG7IiaVKRkNMHdRbIpVpTP" />
         <Link Id="PmJ9GzufsEaMW7vS2svgAS" Ids="H2yTdIzmkMTOKucbRnqUbK,BdZxMOWR4DYP57J7Cx4sNn" />
         <Link Id="N2OZJb2i7wFPgC3oEVThA2" Ids="L64viXoxMMeNOeCNfaTifx,CoXKRi7nHLCNiTxX2ykrKq" />
-        <Link Id="GUaiahgqPlENV6IQMBXohx" Ids="FIUNF4JgriTNyaei6je2YC,FIHTiKMVQAvPJuTtj8iRWL" />
-        <Link Id="MPb3kg7eueEOziGP8c0Ocj" Ids="RmYr2JdE7T4OqfwYObPp6s,B78SfDwQXplMIRdPPs18Qt" />
+        <Link Id="TBPMKGs2VyCMiwaH1Gk0Xu" Ids="RmYr2JdE7T4OqfwYObPp6s,Ux5tVnibibMLChW2mgjx9t" />
       </Patch>
     </Node>
   </Patch>
