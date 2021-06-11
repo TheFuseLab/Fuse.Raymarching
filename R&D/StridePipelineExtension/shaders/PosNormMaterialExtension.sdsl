@@ -37,7 +37,6 @@ shader PosNormMaterialExtension : PosNormOverride, ShaderBaseStream, Transformat
         streams.meshNormalWS = n;
         streams.DepthVS = PosWVP.w;
         streams.Depth = PosWVP.z/PosWVP.w;
-        //ComputeRaymarch(streams.TexCoord);
         return base.Shading();
     }
 };
